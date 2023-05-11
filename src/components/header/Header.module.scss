@@ -1,0 +1,13 @@
+.header {
+  background-color: rgb(213, 213, 213);
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding-inline: 12px;
+  justify-content: space-between;
+
+  .button_box {
+    display: flex;
+    gap: 4px;
+  }
+}

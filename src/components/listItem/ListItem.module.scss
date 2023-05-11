@@ -1,0 +1,23 @@
+.item_wrapper {
+  padding: 14px 14px 14px 0;
+  border-bottom: 1px solid rgb(225, 225, 225);
+
+  h4 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 150px;
+  }
+  .text_wrapper {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 150px;
+    color: rgb(190, 190, 190);
+
+    span {
+      color: black;
+      margin-right: 4px;
+    }
+  }
+}

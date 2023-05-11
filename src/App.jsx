@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Header from './components/header/Header';
+import Sidebar from './components/sidebar/Sidebar';
+import Workspace from './components/workspace/Workspace';
 
 const App = () => {
   return (
-    <div className='App'>
-      <header className='App-header'>
-        <img src={logo} className='App-logo' alt='logo' />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className='App-link'
-          href='https://reactjs.org'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='main-wrapper'>
+      <Header />
+      <div className='content-wrapper'>
+        <Sidebar />
+        <Workspace />
+      </div>
     </div>
   );
 };
