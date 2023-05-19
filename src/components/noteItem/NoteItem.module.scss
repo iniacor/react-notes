@@ -1,0 +1,45 @@
+.app_sidebar_note {
+  padding: 1em;
+  border-bottom: 1px solid #b9b1b1;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+  @media (width <= 35em) {
+    padding: 0.5em 1em;
+  }
+}
+.sidebar_note_title {
+  max-width: 25vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  @media (width <= 35em) {
+    font-size: 1.2em;
+  }
+}
+
+.app_sidebar_note p {
+  margin: 0.5em 0;
+}
+.note_meta {
+  display: block;
+  color: #6a6868;
+}
+
+.app_sidebar_note:hover {
+  background: #ddd;
+  box-shadow: 8px 10px 5px -8px rgba(0, 0, 0, 0.74);
+  -webkit-box-shadow: 8px 10px 5px -8px rgba(0, 0, 0, 0.74);
+  -moz-box-shadow: 8px 10px 5px -8px rgba(0, 0, 0, 0.74);
+}
+.app_sidebar_note.active {
+  background: #08c;
+  color: white;
+  box-shadow: 8px 10px 5px -5px rgba(0, 0, 0, 0.74) inset;
+  -webkit-box-shadow: 8px 10px 5px -5px rgba(0, 0, 0, 0.74) inset;
+  -moz-box-shadow: 8px 10px 5px -5px rgba(0, 0, 0, 0.74) inset;
+}
+
+.app_sidebar_note.active small {
+  background: #08c;
+  color: white;
+}

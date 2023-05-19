@@ -1,3 +1,8 @@
-aside {
-  padding-left: 14px;
+.app_sidebar {
+  flex-basis: 25%;
+  border-right: 1px solid #b3b3b3;
+}
+.app_sidebar_notes {
+  height: 100vh;
+  overflow-y: scroll;
 }

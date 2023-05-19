@@ -5,7 +5,7 @@ import Workspace from './components/workspace/Workspace';
 
 const App = () => {
   return (
-    <div className='main-wrapper'>
+    <div className='app'>
       <Header />
       <div className='content-wrapper'>
         <Sidebar />

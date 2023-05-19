@@ -1,17 +1,19 @@
+import React from 'react';
 import Searchbox from '../searchBox/SearchBox';
+import AddButton from '../buttons/AddButton';
+import DeleteButton from '../buttons/DeleteButton';
 import styles from './Header.module.scss';
 
-const Header = () => {
+const Header = React.memo(() => {
   return (
     <header className={styles.header}>
       <div className={styles.button_box}>
-        <button>Add</button>
-        <button>Delete</button>
-        <button>Edit</button>
+        <AddButton />
+        <DeleteButton />
       </div>
       <Searchbox />
     </header>
   );
-};
+});
 
 export default Header;

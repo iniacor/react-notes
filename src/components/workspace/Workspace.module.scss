@@ -1,10 +1,38 @@
-.workspace_wrapper {
+.app_workspace {
+  flex-basis: 75%;
+}
+.date_wrapper {
+  display: flex;
+  justify-content: center;
   width: 100%;
-
-  .date_wrapper {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-bottom: 8px;
+  margin-bottom: 0.5em;
+  color: #6a6868;
+}
+.no_active_note {
+  width: 70%;
+  height: 100vh;
+  line-height: 50vh;
+  text-align: center;
+  font-size: 2rem;
+  color: #08c;
+  text-shadow: 1px 1px #020578;
+}
+.note_title {
+  padding: 0.25em 1em;
+  font-weight: 700;
+  background-color: transparent;
+  border: none;
+  &:focus-visible {
+    outline: none;
+  }
+}
+.note_content {
+  background-color: transparent;
+  height: 100vh;
+  width: 100%;
+  border: none;
+  padding: 1em;
+  &:focus-visible {
+    outline: none;
   }
 }
