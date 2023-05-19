@@ -9,7 +9,7 @@
 - [JS](https://en.wikipedia.org/wiki/JavaScript) [ES6](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
 - [React](https://reactjs.org/)
 - [SaSS](https://sass-lang.com/)
-- [indexDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API)
+- [indexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API)
 
 
 ## ✨ Features
