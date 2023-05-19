@@ -1,4 +1,21 @@
 # Getting Started with Create React App
+#  React notes
+
+### Application available via  [link](https://iniacor.github.io/react-notes/)  👈🏻
+
+## ⚙️ Used technologies:
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [JS](https://en.wikipedia.org/wiki/JavaScript) [ES6](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
+- [React](https://reactjs.org/)
+- [SaSS](https://sass-lang.com/)
+- [indexDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API)
+
+
+## ✨ Features
+- Add note 
+- Edit note 
+- Delete note 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
